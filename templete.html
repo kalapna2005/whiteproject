@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVICENT</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for background and overlay */
+        .background {
+            background-image: url('https://tse1.mm.bing.net/th?id=OIP.8Ekt9WgpNFTzHrxSRkyvNQHaEK&pid=Api&P=0&h=180'); /* Replace with your image path */
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Overlay with a shade */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+        }
+
+        /* Content styling */
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+        }
+        .content h2 {
+            font-size: 48px;
+        }
+        .content p {
+            font-size: 22px;
+        }
+
+        /* Padding for each section */
+        section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">LEVICENT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="background">
+        <div class="overlay"></div>
+        <div class="content d-flex flex-column justify-content-center align-items-center h-100">
+            <section>
+                <h2>Welcome to LEVICENT</h2>
+                <p>Your success is our business.</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="background">
+        <div class="overlay"></div>
+        <div class="content d-flex flex-column justify-content-center align-items-center h-100">
+            <section>
+                <h2>About Us</h2>
+                <p>
+                    
+                    At Levicent, we are a dynamic web development startup dedicated to building innovative and high-performance websites tailored to meet the unique needs of our clients. Founded by a team of passionate developers, designers, and digital strategists, we aim to create digital experiences that drive success for businesses of all sizes.
+                    
+                    Our expertise spans across front-end and back-end development, mobile responsiveness, e-commerce solutions, and custom web applications. We focus on delivering scalable, user-friendly websites that not only look stunning but also function flawlessly.
+                    
+                    We believe in the power of collaboration and work closely with our clients to understand their vision, ensuring every project we deliver aligns with their goals. Whether you're a startup looking to establish your online presence or an established company seeking to improve your digital footprint, we are here to turn your ideas into reality.
+                    
+                    Join us on this exciting journey as we help shape the future of the web, one pixel at a time.
+                    
+                
+                    </p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="background">
+        <div class="overlay"></div>
+        <div class="content d-flex flex-column justify-content-center align-items-center h-100">
+            <section>
+                <h2>Our Services</h2>
+                <p>Explore the wide range of services we offer to take your business to the next level.</p>
+                <a href="https://tse4.mm.bing.net/th?id=OIP.0_5__213zd8jfTX_zWVQ-QHaEt&pid=Api&P=0&h=180" target="_blank">Click here to see the services</a>
+               <p> Welcome to Levicent, your trusted partner for building engaging and functional websites. We specialize in delivering modern, responsive, and user-friendly web solutions tailored to meet your unique needs. Our services include website development, custom web application development, UI/UX design, maintenance and support, and search engine optimization (SEO). Whether you need a custom website, a scalable web application, or an online store, we ensure every project is designed to perform seamlessly across devices and meet your business goals.  
+
+At Levicent, we pride ourselves on providing tailored solutions that align with your vision. Our agile development process allows us to deliver projects on time while accommodating any changes. With a team of experienced developers, designers, and strategists, we are committed to excellence, offering high-quality services at competitive rates to help startups thrive.  
+
+Getting started with us is simple. </p>
+
+            </section>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="background">
+        <div class="overlay"></div>
+        <div class="content d-flex flex-column justify-content-center align-items-center h-100">
+            <section>
+                <h2>Contact Us</h2>
+                <p>Get in touch with us today! We would love to hear from you.</p>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                      <h3>Our Information</h3>
+                      <p><i class="fas fa-phone-alt"></i> +1 234 567 890</p>
+                      <p><i class="fas fa-envelope"></i> Levicent@company.com</p>
+                      <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Arni, TamilNadu</p>
+          
+                      <!-- Map Section -->
+                      <div class="map-container mb-3">
+                        
+                      </div>
+                    </div>
+                  </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
